@@ -1,0 +1,27 @@
+{
+  "name": "get-service-for-crm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src",
+    "dev": "nodemon src",
+    "debug": "node --inspect src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.2",
+    "express": "^4.16.4",
+    "hdb": "^0.17.0"
+  },
+  "engines": {
+    "node": ">=8",
+    "npm": ">=3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
